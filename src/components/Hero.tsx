@@ -67,7 +67,7 @@ export default function Hero() {
           </a>
           
           <a
-            href="/carlos_zamudio_cv.pdf"
+            href="/zamcv/carlos_zamudio_cv.pdf"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center mt-8 px-8 py-3 rounded-full border border-[var(--color-primary)] text-[var(--color-primary)] font-medium hover:bg-[var(--color-primary)]/10 transition-colors duration-300"
