@@ -1,7 +1,7 @@
 import { texts } from "../i18n/texts";
 import { useLanguage } from "../context/LanguageContext";
 import { motion } from "framer-motion";
-import { FiChevronDown } from "react-icons/fi";
+import { FiChevronDown, FiDownload } from "react-icons/fi";
 
 export default function Hero() {
   const { lang } = useLanguage();
@@ -57,12 +57,23 @@ export default function Hero() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 1, duration: 0.5 }}
+          className="flex flex-wrap gap-4 justify-center"
         >
           <a
             href="#projects"
             className="inline-block mt-8 px-8 py-3 rounded-full bg-gradient-to-r from-[var(--color-primary)] to-[var(--color-secondary)] text-white font-medium hover:shadow-lg hover:shadow-[var(--color-primary)]/20 transition-shadow duration-300"
           >
             {t.cta}
+          </a>
+          
+          <a
+            href="/carlos_zamudio_cv.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center mt-8 px-8 py-3 rounded-full border border-[var(--color-primary)] text-[var(--color-primary)] font-medium hover:bg-[var(--color-primary)]/10 transition-colors duration-300"
+          >
+            <FiDownload className="mr-2" />
+            {t.downloadCV || "Descargar CV"}
           </a>
         </motion.div>
       </motion.div>

@@ -21,7 +21,8 @@ export const texts = {
     hero: {
       subtitle: "Desarrollador Full Stack",
       description: "Apasionado por la tecnología, disfruto crear soluciones innovadoras y eficientes.",
-      cta: "Ver Proyectos"
+      cta: "Ver Proyectos",
+      downloadCV: "Descargar CV"
     },
     about: {
       title: "Sobre mí",
@@ -104,7 +105,8 @@ export const texts = {
     hero: {
       subtitle: "Full Stack Developer",
       description: "Passionate about technology, I enjoy building innovative and efficient solutions.",
-      cta: "View Projects"
+      cta: "View Projects",
+      downloadCV: "Download CV"
     },
     about: {
       title: "About me",
