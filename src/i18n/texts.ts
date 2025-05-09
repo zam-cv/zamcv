@@ -125,7 +125,6 @@ export const texts = {
           title: "HackMx",
           description: "Platform to organize and manage hackathons in Mexico.",
           link: "https://github.com/zam-cv/hackmx",
-          demo: "https://hackmx.mx",
           tags: ["Rust", "Astro.js", "PostgreSQL"]
         },
         {
@@ -144,7 +143,6 @@ export const texts = {
           title: "Zazil",
           description: "Mobile e-commerce app for women's products.",
           link: "https://github.com/zam-cv/todas_brillamos",
-          demo: "https://todasbrillamos.com",
           tags: ["Flutter", "Mobile", "Golang", "Kotlin"]
         }
       ]

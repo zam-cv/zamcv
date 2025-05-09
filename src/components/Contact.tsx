@@ -23,7 +23,7 @@ export default function Contact() {
     {
       name: "LinkedIn",
       icon: FiLinkedin,
-      url: "https://www.linkedin.com/in/carlos-alberto-zamudio-vel%C3%A1zquez-9b09ab30a/",
+      url: "https://www.linkedin.com/in/carlos-zamudio-v/",
       color: "var(--color-accent)"
     }
   ];
