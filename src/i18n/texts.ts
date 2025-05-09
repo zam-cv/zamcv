@@ -56,7 +56,7 @@ export const texts = {
           tags: ["IoT", "Embedded", "Rust", "MongoDB"]
         },
         {
-          title: "Todas Brillamos",
+          title: "Zazil",
           description: "App móvil de e-commerce para productos femeninos.",
           link: "https://github.com/zam-cv/todas_brillamos",
           tags: ["Flutter", "Mobile", "Golang", "Kotlin"]
@@ -141,7 +141,7 @@ export const texts = {
           tags: ["IoT", "Embedded", "Rust", "MongoDB"]
         },
         {
-          title: "Todas Brillamos",
+          title: "Zazil",
           description: "Mobile e-commerce app for women's products.",
           link: "https://github.com/zam-cv/todas_brillamos",
           demo: "https://todasbrillamos.com",
